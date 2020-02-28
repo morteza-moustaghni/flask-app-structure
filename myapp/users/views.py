@@ -1,5 +1,5 @@
 from flask import Blueprint, render_template, request, flash, url_for, redirect
-from flask.ext.login import login_required, login_user, logout_user, current_user
+from flask_login import login_required, login_user, logout_user, current_user
 from sqlalchemy.orm import defer
 from sqlalchemy.orm.exc import NoResultFound
 

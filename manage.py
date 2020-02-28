@@ -1,4 +1,4 @@
-from flask.ext.script import Manager
+from flask_script import Manager
 
 from myapp import create_app
 from myapp.database import init_db, drop_db

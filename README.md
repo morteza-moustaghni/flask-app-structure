@@ -11,9 +11,4 @@ and here
 http://flask.pocoo.org/snippets/22/
 
 Dependencies of the code:
-Sqlalchemy
-Psycopg2
-Flask-WTF
-Flask-Bcrypt
-Flask-Manager
-Flask-Login
+Sqlalchemy Psycopg2 Flask-WTF Flask-Bcrypt Flask-Manager Flask-Login

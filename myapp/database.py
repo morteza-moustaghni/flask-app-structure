@@ -1,6 +1,6 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import scoped_session, sessionmaker, create_session
-from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy_declarative import declarative_base
 from sqlalchemy import engine
 from sqlalchemy.schema import (
     MetaData,

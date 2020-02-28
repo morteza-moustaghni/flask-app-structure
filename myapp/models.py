@@ -1,7 +1,7 @@
 from sqlalchemy import Column, Integer, ForeignKey, String, DateTime, text
-from sqlalchemy.ext.hybrid import hybrid_property
-from flask.ext.bcrypt import Bcrypt
-from flask.ext.login import UserMixin
+from sqlalchemy_hybrid import hybrid_property
+from flask_bcrypt import Bcrypt
+from flask_login import UserMixin
 
 from .database import Base
 

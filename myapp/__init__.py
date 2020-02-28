@@ -2,11 +2,11 @@ import os
 import logging
 
 from flask import Flask, render_template, abort
-from flask.ext.login import LoginManager
-from flask.ext.bcrypt import Bcrypt
-from flask.ext.openid import OpenID
-from flask.ext.script import Manager
-from flask.ext.assets import Environment, Bundle
+from flask_login import LoginManager
+from flask_bcrypt import Bcrypt
+from flask_.openid import OpenID
+from flask_script import Manager
+from flask_assets import Environment, Bundle
 
 from .database import init_engine, init_db, db_session
 from .models import User, bcrypt
